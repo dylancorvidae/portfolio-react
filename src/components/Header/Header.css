@@ -1,0 +1,70 @@
+
+header {
+  background: url('../../img/outstretchedhands.jpg') rgba(0, 0, 0, 0.438);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0px;
+  height: 400px;
+  width: 100%;
+}
+
+#header-h1 {
+  color: white;
+  font-size: 4.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 250px auto 10px auto;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+/* Animation */
+.typewriter{
+animation: 
+typewriter 3s steps(44) 2s 1 normal both,
+blinkTextCursor 800ms steps(44) infinite normal,
+cursorOff 0s ease-in 6s forwards;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 550px;}
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+}
+
+@keyframes cursorOff {
+  to {border-right: none;  }
+}
+
+#header-h2 {
+  color: white;
+  font-size: 3em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 15px auto 8px auto;
+  text-shadow: -2px 2px 5px rgb(0, 0, 0);
+}
+
+/* Animation */
+.typewriter2 {
+animation: 
+cursorOn 4s steps(1) 6s forwards,
+typewriter2 3.5s steps(44) 6.5s 1 normal both,
+blinkTextCursor 800ms steps(44) infinite normal,
+cursorOff 0s steps(1) 14s;
+}
+
+@keyframes cursorOn {
+  from {border-right: 2px solid rgba(255,255,255,.75);}
+}
+
+@keyframes typewriter2 {
+from{width: 0;}
+to{width: 550px;}
+}
